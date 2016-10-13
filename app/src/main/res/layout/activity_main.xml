@@ -14,7 +14,8 @@
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:background="@color/primary_material_dark_1" />
 
     <ProgressBar
         android:id="@+id/progressBar"
