@@ -55,7 +55,7 @@ public class VideoListAdapter extends BaseAdapter {
         Video video = mVideos.get(position);
         if (video != null) {
             if (holder.imgThumbnail != null) {
-                Glide.with(mContext).load(video.getThumbnailUrl()).into(holder.imgThumbnail);
+                Glide.with(mContext).load(video.getThumbnailUrl()).override(600,200).into(holder.imgThumbnail);
             }
             if (holder.tvTitle != null) {
 
